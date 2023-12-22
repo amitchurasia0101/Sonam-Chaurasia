@@ -504,4 +504,11 @@ h4{
 }
 
 }
-
+.about{
+        height: 800px;  
+    }
+    .abt-layer{
+        height: 750px;
+    }
+    .abt-text{
+        height: 680px;
