@@ -46,7 +46,7 @@
 .container1{
     width: 100vw;
     height: 550px ;
-    background-image: url(/bg1.jpg);
+    background-image: url(bg1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -139,7 +139,7 @@ h4{
     border-radius: 50%;
     
     margin: 20px 20px;
-    background-image: url(/dayiE.jpg);
+    background-image: url(dayiE.jpg);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@ h4{
     /* line-height: 130px; */
 }
 .item2{
-    background-image: url(/dayi.jpg);
+    background-image: url(dayi.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -171,7 +171,7 @@ h4{
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/shivam.jpg);
+    background-image: url(shivam.jpg);
     cursor: pointer;
     color: #FFF;
     /* border: 8px solid #897889; */
@@ -204,7 +204,7 @@ h4{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/user1E.jpg);
+    background-image: url(user1E.jpg);
     cursor: pointer;
     /* border: 8px solid rgb(255, 255, 254); */
     box-shadow: -6px 2px 20px 18px rgba(0, 0, 0, 0.447);
@@ -213,7 +213,7 @@ h4{
     /* line-height: 130px; */
 }
 .item4{
-    background-image: url(/user1.jpg);
+    background-image: url(user1.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -237,7 +237,7 @@ h4{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/user2E.jpg);
+    background-image: url(user2E.jpg);
     /* border: 8px solid #28ed1d; */
     box-shadow: -6px 2px 20px 18px rgba(0, 0, 0, 0.447);
     cursor: pointer;
@@ -246,7 +246,7 @@ h4{
     /* line-height: 130px; */
 }
 .item5{
-    background-image: url(/user2.jpg);
+    background-image: url(user2.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -269,7 +269,7 @@ h4{
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/user4E.jpg);
+    background-image: url(user4E.jpg);
     /* border: 8px solid #0238fd; */
     box-shadow: -6px 2px 20px 18px rgba(0, 0, 0, 0.447);
     cursor: pointer;
