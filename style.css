@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@200;600;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.navbar{
+
+.navbar {
     display: flex;
     background-color: transparent;
     font-family: 'Martel Sans', sans-serif;
@@ -19,33 +20,38 @@
     position: sticky;
     top: 0;
     z-index: 50;
-    
+
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
     justify-content: space-between;
 }
-.navbar ul li{
+
+.navbar ul li {
     list-style-type: none;
     margin: 20px;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     padding: 8px;
     color: white;
     font-size: 20px;
     text-decoration: none;
     border-radius: 15px;
     transition: all 0.4s ease-in-out;
-    
-    
+
+
 }
-.navbar ul li a:hover{
+
+.navbar ul li a:hover {
     background-color: white;
     color: rgba(0, 0, 0, 0.982);
 }
-.container1{
+
+.container1 {
     width: 100vw;
-    height: 550px ;
+    height: 550px;
     background-image: url(bg1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -54,7 +60,8 @@
     align-items: center;
     position: relative;
 }
-.box1{
+
+.box1 {
     display: flex;
     flex-direction: column;
     height: 550px;
@@ -68,17 +75,19 @@
     background-color: rgb(0, 0, 0);
 
 }
-h4{
+
+h4 {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 25px;
 }
-.box1 p{
+
+.box1 p {
     width: 55%;
     font-family: 'Martel Sans', sans-serif;
     text-align: center;
 }
 
-.container3{
+.container3 {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -90,12 +99,13 @@ h4{
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
     border: 2px solid #000000;
 }
-.box3{
+
+.box3 {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 120px;
     justify-content: center;
     align-items: center;
@@ -103,41 +113,49 @@ h4{
     position: absolute;
     z-index: 20;
 }
-.layer{
+
+.layer {
     height: 700px;
     width: 100vw;
     opacity: .39;
     background-color: black;
     position: absolute;
-    
+
 }
+
 .heading {
-    text-align: center; /* Center the heading */
-    font-size: 2rem; /* Adjust font size as needed */
+    text-align: center;
+    /* Center the heading */
+    font-size: 2rem;
+    /* Adjust font size as needed */
     margin-top: 40px;
-    
-    font-weight: bold; /* Make it bold */
-    margin-bottom: 20px; /* Add spacing before the grid */
+
+    font-weight: bold;
+    /* Make it bold */
+    margin-bottom: 20px;
+    /* Add spacing before the grid */
     position: absolute;
     z-index: 20;
     font-family: 'Poppins', sans-serif;
-    color: #ffffff; /* Set text color (adjust as needed) */
-  }
+    color: #ffffff;
+    /* Set text color (adjust as needed) */
+}
 
-.box2{
+.box2 {
     height: 750px;
 }
-.item2{
+
+.item2 {
     /* border: 2px solid #784578; */
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    
+
 }
 
-.trans{
+.trans {
     border-radius: 50%;
-    
+
     margin: 20px 20px;
     background-image: url(dayiE.jpg);
     background-position: top center;
@@ -150,23 +168,27 @@ h4{
     /* text-align: center; */
     /* line-height: 130px; */
 }
-.item2{
+
+.item2 {
     background-image: url(dayi.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.cont1{
+
+.cont1 {
     transform: perspective(1) scaleZ(1) rotateY(0deg);
     transition: transform 0.8s ease;
 }
-.trans:hover .cont1{
-    
+
+.trans:hover .cont1 {
+
     transform: perspective(500px) scaleZ(2) rotateY(90deg);
 }
-.trans1{
+
+.trans1 {
     border-radius: 50%;
-    
+
     margin: 20px 20px;
     background-position: top center;
     background-size: cover;
@@ -179,7 +201,8 @@ h4{
     /* text-align: center; */
     /* line-height: 130px; */
 }
-.item3{
+
+.item3 {
     background-image: url(shivamE.jpg);
     background-position: top center;
     background-size: cover;
@@ -189,17 +212,20 @@ h4{
     height: 200px;
     border-radius: 50%;
 }
-.cont2{
+
+.cont2 {
     transform: perspective(1) scaleZ(1) rotateY(0deg);
     transition: transform 0.8s ease;
 }
-.trans1:hover .cont2{
-    
+
+.trans1:hover .cont2 {
+
     transform: perspective(500px) scaleZ(2) rotateY(90deg);
 }
-.trans2{
+
+.trans2 {
     border-radius: 50%;
-    
+
     margin: 20px 20px;
     background-position: center center;
     background-size: cover;
@@ -212,7 +238,8 @@ h4{
     /* text-align: center; */
     /* line-height: 130px; */
 }
-.item4{
+
+.item4 {
     background-image: url(user1.jpg);
     background-position: center center;
     background-size: cover;
@@ -222,17 +249,20 @@ h4{
     height: 200px;
     border-radius: 50%;
 }
-.cont3{
+
+.cont3 {
     transform: perspective(1) scaleZ(1) rotateY(0deg);
     transition: transform 0.8s ease;
 }
-.trans2:hover .cont3{
-    
+
+.trans2:hover .cont3 {
+
     transform: perspective(500px) scaleZ(2) rotateY(90deg);
 }
-.trans3{
+
+.trans3 {
     border-radius: 50%;
-    
+
     margin: 20px 20px;
     background-position: center center;
     background-size: cover;
@@ -245,7 +275,8 @@ h4{
     /* text-align: center; */
     /* line-height: 130px; */
 }
-.item5{
+
+.item5 {
     background-image: url(user2.jpg);
     background-position: center center;
     background-size: cover;
@@ -254,17 +285,20 @@ h4{
     height: 200px;
     border-radius: 50%;
 }
-.cont4{
+
+.cont4 {
     transform: perspective(1) scaleZ(1) rotateY(0deg);
     transition: transform 0.8s ease;
 }
-.trans3:hover .cont4{
-    
+
+.trans3:hover .cont4 {
+
     transform: perspective(500px) scaleZ(2) rotateY(90deg);
 }
-.trans4{
+
+.trans4 {
     border-radius: 50%;
-    
+
     margin: 20px 20px;
     background-position: top center;
     background-size: cover;
@@ -277,7 +311,8 @@ h4{
     /* text-align: center; */
     /* line-height: 130px; */
 }
-.item6{
+
+.item6 {
     background-image: url(user4.jpg);
     background-position: top center;
     background-size: cover;
@@ -286,17 +321,20 @@ h4{
     height: 200px;
     border-radius: 50%;
 }
-.cont5{
+
+.cont5 {
     transform: perspective(1) scaleZ(1) rotateY(0deg);
     transition: transform 0.8s ease;
 }
-.trans4:hover .cont5{
-    
+
+.trans4:hover .cont5 {
+
     transform: perspective(500px) scaleZ(2) rotateY(90deg);
 }
-.trans5{
+
+.trans5 {
     border-radius: 50%;
-    
+
     margin: 20px 20px;
     background-position: center center;
     background-size: cover;
@@ -309,7 +347,8 @@ h4{
     /* text-align: center; */
     /* line-height: 130px; */
 }
-.item7{
+
+.item7 {
     background-image: url(user3.jpg);
     background-position: center center;
     background-size: cover;
@@ -318,15 +357,18 @@ h4{
     height: 200px;
     border-radius: 50%;
 }
-.cont6{
+
+.cont6 {
     transform: perspective(1) scaleZ(1) rotateY(0deg);
     transition: transform 0.8s ease;
 }
-.trans5:hover .cont6{
-    
+
+.trans5:hover .cont6 {
+
     transform: perspective(500px) scaleZ(2) rotateY(90deg);
 }
-.container2{
+
+.container2 {
     display: flex;
     flex-direction: column;
     height: 450px;
@@ -337,9 +379,10 @@ h4{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    
+
 }
-.layer2{
+
+.layer2 {
     height: 450px;
     width: 100vw;
     opacity: 5;
@@ -347,44 +390,50 @@ h4{
     position: absolute;
 
 }
-.box2{
+
+.box2 {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     gap: 80px;
     margin-top: 70px;
-    
+
     z-index: 20;
 }
-.exclus{
+
+.exclus {
     height: 250px;
     width: 200px;
     border-radius: 15px;
     /* border: 2px solid red; */
     box-shadow: 12px 16px 8px 0px rgba(0, 0, 0, 0.845);
-    
+
 }
-.ex1{
+
+.ex1 {
     background-image: url(ex1.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.ex2{
+
+.ex2 {
     background-image: url(ex2.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
-.ex3{
+
+.ex3 {
     background-image: url(ex3.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.about{
+
+.about {
     height: 550px;
     width: 100vw;
     display: flex;
@@ -393,24 +442,26 @@ h4{
     position: relative;
     align-items: center;
     /* z-index: 10; */
-    
-    
+
+
 }
-.abt-layer{
+
+.abt-layer {
     height: 550px;
     width: 100vw;
-    
-    background-image: url(aboutus.jpg) ;
+
+    background-image: url(aboutus.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: blur(5px);
-    
+
     position: absolute;
-    
+
 
 }
-.abt-text{
+
+.abt-text {
     height: 280px;
     width: 50%;
     background-color: #000000a7;
@@ -423,92 +474,142 @@ h4{
     position: absolute;
     z-index: 20;
 }
-.abt-text h2{
+
+.abt-text h2 {
     font-family: 'Poppins', sans-serif;
     margin-top: 25px;
     color: white;
 }
-.abt-text p{
+
+.abt-text p {
     font-family: 'Martel Sans', sans-serif;
     /* margin-top: 15px; */
     padding: 40px;
     color: #FFF;
-    text-align: justify;
+    text-align: center;
 }
+
 .footer {
     background-color: #000000;
     color: #fff;
     padding: 20px 0;
     text-align: center;
-  }
+}
+
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
- 
-  
-  .footer-links p{
+}
+
+
+
+.footer-links p {
     color: #fff;
     align-self: center;
     text-decoration: none;
     text-align: center;
-  }
+}
 
-@media (max-width: 768px) { /* Adjust this breakpoint as needed */
-    .container3{
-        height: 1850px;
+@media (max-width: 1200px) {
+    .about {
+        height: 650px;
     }
-    .box3 {
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(6, 1fr); /* Create 6 rows */
+
+    .abt-layer {
+        height: 650px;
     }
-    .layer{
-        height: 1850px;
+
+    .abt-text {
+        height: 350px;
     }
-    .box2{
-        grid-template-columns: 1fr;
-      grid-template-rows: repeat(3, 1.2fr);
-      margin-top: 120px;
-      gap: 50px;
+}
+@media (max-width: 992px) {
+    .about {
+        height: 950px;
     }
-    .container2{
-        height: 1000px;
-        gap: 50px;
+
+    .abt-layer {
+        height: 950px;
     }
-    .box1 p{
-        width: 65%;
+
+    .abt-text {
+        height: 500px;
     }
-    .layer2{
-        height: 1000px;
+}
+
+    @media (max-width: 768px) {
+
+        /* Adjust this breakpoint as needed */
+        .container3 {
+            height: 1850px;
+        }
+
+        .box3 {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(6, 1fr);
+            /* Create 6 rows */
+        }
+
+        .layer {
+            height: 1850px;
+        }
+
+        .box2 {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1.2fr);
+            margin-top: 120px;
+            gap: 50px;
+        }
+
+        .container2 {
+            height: 1000px;
+            gap: 50px;
+        }
+
+        .box1 p {
+            width: 65%;
+        }
+
+        .layer2 {
+            height: 1000px;
+        }
+
+        .about {
+            height: 850px;
+        }
+
+        .abt-layer {
+            height: 850px;
+        }
+
+        .abt-text {
+            height: fit-content;
+            
+        }
+
+        .navbar ul li {
+
+            margin: 5px;
+
+        }
+
+        .navbar ul li a {
+            font-size: 10px;
+        }
+
     }
-    .about{
-        height: 750px;  
+    @media (max-width: 400px){
+        .about {
+            height: 1400px;
+        }
+
+        .abt-layer {
+            height: 1400px;
+        }
     }
-    .abt-layer{
-        height: 750px;
-    }
-    .abt-text{
-        height: 680px;
-  }
-  .navbar ul li{
+
+
     
-    margin: 5px;
-
-}
-.navbar ul li a{
-    font-size: 10px;
-}
-
-}
-.about{
-        height: 800px;  
-    }
-    .abt-layer{
-        height: 750px;
-    }
-    .abt-text{
-        height: 680px;
